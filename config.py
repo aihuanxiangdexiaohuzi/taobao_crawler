@@ -1,4 +1,4 @@
-#配置文件
+#配置文件注释
 MONGO_URL = 'localhost'
 MONGO_DB = 'taobao'
 MONGO_TABLE = 'product'

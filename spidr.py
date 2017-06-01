@@ -34,7 +34,6 @@ def search():#搜索解析
     except TimeoutException:
         return search()
 
-
 def next_page(page_number): #翻译操作
     print('正在翻页', page_number)
     try:
@@ -87,5 +86,3 @@ def main():#main方法
 
 if __name__ == '__main__':
     main()
-
-
